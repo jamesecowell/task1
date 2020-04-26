@@ -11,11 +11,10 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.greenAccent[200],
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Container(
-                margin: EdgeInsets.all(36.0),
-                padding: EdgeInsets.only(top: 588.0),
                 height: 48.0,
                 width: 303.0,
                 decoration: BoxDecoration(
